@@ -1,0 +1,13 @@
+.navbar-brand {
+    font-family: var(--font-one);
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-family: var(--font-two);
+}
+
+nav {
+    background: var(--orange);
+}

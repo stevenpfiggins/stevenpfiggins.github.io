@@ -1,0 +1,12 @@
+:root {
+    --blue: #2e3288;
+    --yellow: #c4b42d;
+    --orange: #c4812d;
+    --red: #c43e2d;
+    --turquoise: #1e6879;
+    --green: #7db429;
+
+    --font-one: 'Sedgwick Ave', cursive;
+    --font-two: 'Poppins', sans-serif;
+    --font-three: 'Source Serif Pro', serif;
+}
