@@ -16,3 +16,8 @@ nav {
     position: fixed;
     width: 100%;
 }
+
+nav span {
+    color: white;
+    font-family: var(--font-two);
+}
