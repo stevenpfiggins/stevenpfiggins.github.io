@@ -5,6 +5,18 @@ h2 {
     padding-top: 0.5em;
 }
 
+h3 {
+    font-family: var(--font-one);
+    text-align: center;
+}
+
+#about td {
+    font-family: var(--font-two);
+    padding: 0.5em 5em;
+    text-align: center;
+    font-size: larger;
+}
+
 #picture {
     border-radius: 100%;
     height: 200px;

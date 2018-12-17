@@ -8,6 +8,6 @@ hr {
     background-color: var(--orange);
 }
 
-p, h4 {
+p, h4, td, h3 {
     color: white;
 }
