@@ -1,8 +1,17 @@
 .jumbotron {
-    background: url(../assets/img/clouds-cloudy-countryside-236047.jpg) no-repeat center 57%;
+    background: url('../assets/img/pexels-photo-459225.jpeg') no-repeat;
+    padding-top: 7rem;
+    padding-bottom: 32.5rem;
+    background-attachment: scroll;
 }
 
 .display-4 {
-    color: white;
+    color: rgb(12, 12, 12);
     font-family: var(--font-three);
+}
+
+.lead {
+    color: rgb(12, 12, 12);
+    font-family: var(--font-three);
+    font-size: x-large;
 }

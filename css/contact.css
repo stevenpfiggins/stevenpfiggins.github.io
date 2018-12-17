@@ -1,0 +1,13 @@
+#contact {
+    margin-bottom: 2em;
+}
+
+label {
+    font-family: var(--font-three);
+    font-size: large;
+    color: white;
+}
+
+button {
+    font-family: var(--font-three);
+}

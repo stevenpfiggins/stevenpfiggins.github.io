@@ -11,3 +11,8 @@
 nav {
     background: var(--orange);
 }
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}

@@ -1,130 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Steven Figgins</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Sedgwick+Ave|Source+Serif+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Steven Figgins</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Sedgwick+Ave|Source+Serif+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Steven Figgins</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Contact
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Resume</a>
-                <a class="dropdown-item" href="#">LinkedIn</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Github</a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">Steven Figgins</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#project">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+  </nav>
+
+  <!--Header-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Steven Figgins</h1>
+      <p class="lead">.NET Developer</p>
+    </div>
+  </div>
+
+  <!--About-->
+  <section id="about">
+    <div class="container">
+      <h2 class="text-center text-uppercase">About Me</h2>
+    </div>
+  </section>
+  <div class="col-2"></div>
+  <hr class="col-8" />
+
+  <!--Project-->
+  <section id="project">
+    <div class="container">
+      <h2 class="text-center text-uppercase">My Projects</h2>
+    </div>
+  </section>
+  <div class="col-2"></div>
+  <hr class="col-8" />
+
+  <!--Contact-->
+  <section id="contact">
+    <div class="container">
+      <h2 class="text-center text-uppercase">Contact Me</h2>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <form action="https://formspree.io/sfiggins43@gmail.com" method="POST">
+            <div class="control-group">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                  data-validation-required-message="Please enter your name" name="name">
+                <p class="help-block text-danger"></p>
               </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">About</a>
-            </li>
-          </ul>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                  data-validation-required-message="Please enter your email" name="_replyto">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                  data-validation-required-message="Please leave a message" name="message"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-lg btn-black">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
         </div>
-      </nav>
-
-    <!--Header-->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
+        <div class="col-2"></div>
       </div>
+    </div>
+  </section>
 
-    <!--About-->
-      <section id="about"></section>
+  <!--Footer-->
+  <footer></footer>
 
-      <!--Project-->
-        <section id="project"></section>
-
-    <!--Contact-->
-      <section id="contact">
-            <div class="container">
-                    <h2 class="text-center text-uppercase">Contact Me</h2>
-                    <div class="row">
-                      <form action="https://formspree.io/YOUR EMAIL HERE" method="POST">
-                        <div class="control-group">
-                          <div class="form-group">
-                            <label>Name</label>
-                            <input
-                              type="text"
-                              class="form-control"
-                              placeholder="Your Name"
-                              id="name"
-                              required
-                              data-validation-required-message="Please enter your name"
-                              name="name"
-                              >
-                            <p class="help-block text-danger"></p>
-                          </div>
-                        </div>
-                        <div class="control-group">
-                          <div class="form-group">
-                            <label>Email Address</label>
-                            <input
-                              type="email"
-                              class="form-control"
-                              placeholder="Your Email"
-                              id="email"
-                              required
-                              data-validation-required-message="Please enter your email"
-                              name="_replyto"
-                            >
-                            <p class="help-block text-danger"></p>
-                          </div>
-                        </div>
-                        <div class="control-group">
-                          <div class="form-group">
-                            <textarea
-                              class="form-control"
-                              rows="7"
-                              placeholder="Your Message"
-                              id="message"
-                              required
-                              data-validation-required-message="Please leave a message"
-                              name="message"
-                            ></textarea>
-                            <p class="help-block text-danger"></p>
-                          </div>
-                        </div>
-                        <div class="text-center">
-                          <div id="success"></div>
-                          <button type="submit" class="btn btn-lg btn-black">
-                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                            Send Message
-                          </button>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-      </section>
-
-    <!--Footer-->
-    <footer></footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="./js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
