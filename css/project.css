@@ -5,5 +5,8 @@
 
 .project {
     display: inline-block;
-    margin: auto;
+}
+
+.project img {
+    border-radius: 2em;
 }

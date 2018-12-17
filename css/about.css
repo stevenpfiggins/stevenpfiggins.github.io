@@ -19,6 +19,12 @@ h2 {
     text-align: left;
 }
 
+.quoter {
+    font-family: var(--font-two);
+    font-size: 1.5em;
+    text-align: center;
+}
+
 .aboutMeText {
     font-family: var(--font-two);
     font-size: 1.25em;
@@ -26,4 +32,9 @@ h2 {
 
 .row {
     padding-bottom: 2em;
+}
+
+#about a {
+    display: inline-block;
+    margin: auto;
 }
