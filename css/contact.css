@@ -10,4 +10,5 @@ label {
 
 button {
     font-family: var(--font-three);
+    background-color: whitesmoke;
 }

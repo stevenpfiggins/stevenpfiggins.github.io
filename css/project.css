@@ -1,0 +1,9 @@
+#project h4 {
+    font-family: var(--font-three);
+    text-align: center;
+}
+
+.project {
+    display: inline-block;
+    margin: auto;
+}

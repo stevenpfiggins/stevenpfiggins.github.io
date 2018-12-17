@@ -10,6 +10,7 @@
 
 nav {
     background: var(--orange);
+    z-index: 2;
 }
 
 .navbar {
@@ -17,7 +18,8 @@ nav {
     width: 100%;
 }
 
-nav span {
+nav button span {
     color: white;
     font-family: var(--font-two);
+    font-size: smaller;
 }
