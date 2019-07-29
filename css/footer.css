@@ -1,8 +1,8 @@
 footer {
-    background: var(--orange);
+    background: rgb(102, 102, 102);
 }
 
 .footerLink {
     text-decoration: none;
-    color: white;
+    color: black;
 }
